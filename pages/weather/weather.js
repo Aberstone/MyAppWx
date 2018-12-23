@@ -36,7 +36,7 @@ Page({
                 "items":weatherData.index,
                 "daily_forecast":weatherData.weather_data
               }
-            )
+            );
           } 
         });
       },
