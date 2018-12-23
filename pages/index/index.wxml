@@ -8,6 +8,6 @@
     </block>
   </view>
   <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+    <button bindtap='toWeather'>天气预报</button>
   </view>
 </view>

@@ -1,0 +1,29 @@
+<!--pages/weather/weather.wxml-->
+<image src="{{bgUrl}}" class="bg"></image>
+<view class="container">
+  <view class="nowWeather">
+    <view class="city w">{{city}}</view>
+    <view class="temp w b">{{tmp}}</view>
+    <view class="weather w">{{detail}} | {{wind}}</view>
+  </view>
+  <view class="weahterDetail">
+    <block wx:for="{{items}}" wx:key="{{index}}" wx:for-index="index" wx:for-item="item">
+      <view class="">
+        <view class="w center">{{item.title}}</view>
+        <view class="w b center f50">{{item.zs}}</view>
+      </view>
+      <view wx:if="{{index<4}}" class="l"></view>
+    </block>
+  </view>
+</view>
+ 
+ 
+<view wx:for="{{daily_forecast}}" wx:for-index="i" wx:for-item="item">
+  <view class="hor forcast" wx:if="{{i>0}}">
+    <view class="center">{{item.date}}</view>
+    <view class="hor">
+      <view class="center">{{item.weather}} | {{item.wind}}</view>
+    </view>
+    <view class="center">{{item.temperature}}</view>
+  </view>
+</view>
