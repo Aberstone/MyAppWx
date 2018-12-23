@@ -32,7 +32,7 @@
 }
  
 .temp{
-  font-size: 170rpx;
+  font-size: 150rpx;
 }
  
 .container {

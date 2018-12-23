@@ -3,7 +3,7 @@
 <view class="container">
   <view class="nowWeather">
     <view class="city w">{{city}}</view>
-    <view class="temp w b">{{tmp}}</view>
+    <view class="temp w">{{tmp}}</view>
     <view class="weather w">{{detail}} | {{wind}}</view>
   </view>
   <view class="weahterDetail">
@@ -27,3 +27,5 @@
     <view class="center">{{item.temperature}}</view>
   </view>
 </view>
+
+<view class="back"><button bindtap="backToFirstPage">返回首页</button></view>

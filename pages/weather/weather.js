@@ -9,6 +9,15 @@ Page({
   },
 
   /**
+   * 返回首页
+   */
+  backToFirstPage: function() {
+    wx.navigateBack({
+      delta:1
+    })
+  },
+
+  /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
@@ -21,7 +30,7 @@ Page({
           "location": longitude+','+latitude
         }
         wx.request({
-          url: 'https://api.abersapp.com/weather',
+          url: 'https://abersapi.oicp.vip/weather',
           data: data,
           method: "GET",
           success: function(res) {
