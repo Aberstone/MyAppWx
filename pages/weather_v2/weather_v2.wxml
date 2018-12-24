@@ -1,0 +1,59 @@
+<!--pages/weather_v2/weather_v2.wxml-->
+<div class='bgs' style='background-image: url(../../image/weather_v2/1.jpg)'>
+
+  <div class="wraps">
+    <div class="weather-position-address">
+      <h2>上海市
+        <span>|</span>静安区</h2>
+      <div class="address">机关事务管理局(延安中路南)</div>
+    </div>
+    <a href="/mweather/101020100.shtml" class="xian" style="display: none;">上海天气</a>
+    <time class="weather-data iconli" style="margin-top: 0rpx;color:#fff;">14:40更新</time>
+  </div>
+
+
+  <div class="n_wd">
+    <h1>
+      <span>11</span>
+      <b>°</b>
+      <em> 多云</em>
+    </h1>
+    <h2>
+      <span class="flfx iconli">北风1级</span>
+      <span class="xdsd iconli">相对湿度 52%</span>
+    </h2>
+    <div class="yj" style="display:none;"></div>
+
+    <!-- continune -->
+
+    <h3 class="clearFix">
+      <div class="sudu" style="display:inline">
+        <b style="background: url(http://api.abersapp.com/static/img/sudu.png) no-repeat 0.15rem center rgba(0, 0, 0, 0.16);background-size:0.35rem 0.35rem; font-weight:normal" onclick='window.location.href="http://m.weather.com.cn/content.html?aid=101020100"'>速读天气</b>
+      </div>
+      <div class="group_foo_1">
+        <a href="http://e.weather.com.cn/p/prec/" class="prcp dis"></a>
+        <a href="http://e.weather.com.cn/p/temphints/" class="temp dis"></a>
+        <a href="http://e.weather.com.cn/p/temphints/" class="high-temp dis"></a>
+        <a href="http://e.weather.com.cn/p/temphints/" class="cold-temp dis"></a>
+        <a href="http://e.weather.com.cn/p/temphints/" class="diff-temp dis"></a>
+        <a href="http://e.weather.com.cn/p/wind/" class="wind dis"></a>
+      </div>
+      <div class="group_foo_2">
+        <a href="http://e.weather.com.cn/air/" class="aqi dis">
+          <span></span>
+          <b></b>
+        </a>
+        <a href="http://m.weather.com.cn/uv/?lat=31.22352&lon=121.45591" class="zwx dis"></a>
+        <a href="http://wx.weather.com.cn/jsyb/" class="cold dis"></a>
+        <a href="http://wx.weather.com.cn/jsyb/" class="cloth dis"></a>
+        <a href="http://wx.weather.com.cn/jsyb/" class="wash-car dis"></a>
+      </div>
+      <div class="div0405" id="add">
+        <image src="http://i.tq121.com.cn/i/wap2018/cus_m/ste.png" />
+      </div>
+      <div class="dz_more">
+        <image src="http://i.tq121.com.cn/i/wap2018/cus_m/more.png" />
+      </div>
+    </h3>
+  </div>
+</div>

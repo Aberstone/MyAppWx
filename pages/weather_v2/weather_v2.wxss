@@ -1,0 +1,186 @@
+/* pages/weather_v2/weather_v2.wxss */
+
+/* view image text {
+    padding: 0;
+    margin: 0;
+} */
+
+.iconli {
+  background: url(http://api.abersapp.com/static/img/bg.png) no-repeat;
+  background-size: 7rem auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+cite, em {
+  font-style: normal;
+}
+
+.bgs {
+  background-size: cover;
+  position: relative;
+  background-color: #36b;
+  margin-top: 0.9rem;
+  margin-bottom: 10rpx;
+}
+
+.bgs {
+  padding-bottom: 1rpx;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.bgs {
+  margin-top: 0;
+}
+
+.wrap {
+  padding-top: 0.2rem;
+  height: 1.5rem;
+}
+
+.weather-position-address {
+  width: 4rem;
+  margin-left: 0.2rem;
+  float: left;
+}
+
+.weather-position-address {
+  background: url(http://api.abersapp.com/static/img/dw.png) no-repeat 0 3rpx;
+  padding-left: 18rpx;
+  background-size: 15rpx auto;
+}
+
+.xian {
+  margin-right: 0.2rem;
+  float: right;
+  font-size: 0.22rem;
+  color: #fff;
+  /* display: block; */
+  border-radius: 30rpx;
+  border: 1rpx solid rgba(255, 255, 255, 0.5);
+  padding: 5rpx 10rpx;
+}
+
+.weather-data {
+  background-position: -4.7rem 0rem;
+  height: 0.4rem;
+  background-size: 6rem auto;
+  color: #fff;
+  float: right;
+  font-size: 0.2rem;
+  margin-top: 10rpx;
+  position: relative;
+  right: 0.2rem;
+  padding-right: 0.4rem;
+  opacity: 0.5;
+}
+
+.weather-position-address h2 {
+  color: #fff;
+  font-size: 0.24rem;
+}
+
+.weather-position-address h2 span {
+  padding: 0 0.1rem;
+}
+
+.weather-position-address .address {
+  font-size: 0.21rem;
+  color: #fff;
+  opacity: 0.5;
+}
+
+.n_wd h1 {
+  color: #fff;
+  font-family: "HelveticaThin";
+  font-size: 1.78rem;
+  height: 1.9rem;
+  line-height: 2.3rem;
+  position: relative;
+  padding-left: 0.2rem;
+  text-align: left;
+}
+
+.n_wd h2 {
+  clear: both;
+  color: #fff;
+  height: 0.8rem;
+  padding-top: 0rem;
+}
+
+.n_wd h1 b {
+  font-size: 1.3rem;
+  position: relative;
+  font-weight: normal;
+  top: -0.3rem;
+}
+
+.n_wd h1 em {
+  color: #fff;
+  font-size: 0.3rem;
+  height: 0.65rem;
+  text-align: center;
+  font-family: "Microsoft Yahei", "Tahoma", "SimSun";
+}
+
+.n_wd h2 span {
+  display: block;
+  float: left;
+  font-size: 0.24rem;
+  line-height: 0.5rem;
+  margin-left: 0.2rem;
+  padding-left: 0.55rem;
+  background-size: 5.7rem auto;
+}
+
+.n_wd h2 span.flfx {
+  background-position: -5.25rem -4.15rem;
+}
+
+.n_wd h2 span.xdsd {
+  background-position: -5.25rem -4.72rem;
+}
+
+.n_wd h3 {
+  height: 0.6rem;
+  margin-bottom: 0.5rem;
+}
+
+.n_wd h3 {
+  padding: 0.21rem 0;
+  margin: 0;
+  background: rgba(0, 0, 0, 0.1);
+  height: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.n_wd h3 .sudu b {
+  border-radius: 6rpx;
+  color: #fff;
+  display: block;
+  float: left;
+  font-size: 0.22rem;
+  height: 0.6rem;
+  line-height: 0.6rem;
+  padding-left: 0.6rem;
+  padding-right: 0.15rem;
+  width: auto;
+  margin: 0.1rem 0rem 0.11rem 0.1rem;
+}
+
+.yj {
+  position: absolute;
+  height: 0.5rem;
+  line-height: 0.5rem;
+  top: 1.2rem;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  background: #f60;
+  right: 0;
+}

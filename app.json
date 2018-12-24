@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/weather/weather"
+    "pages/weather/weather",
+    "pages/weather_v2/weather_v2"
   ],
   "window": {
     "backgroundTextStyle": "light",

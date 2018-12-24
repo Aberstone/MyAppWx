@@ -16,7 +16,7 @@ Page({
   },
   toWeather: function() {
     wx.navigateTo({
-      url: '../weather/weather',
+      url: '../weather_v2/weather_v2',
     })
   },
   onLoad: function () {
